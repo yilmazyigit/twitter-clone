@@ -1,0 +1,86 @@
+body {
+  font-family: "Arial";
+  /* max-width: 1100px; */
+  /* min-height: 100vh;
+  max-width: 400px; */
+  margin: 0 auto;
+}
+
+html {
+  position: relative;
+  min-width: 1024px;
+  min-height: 768px;
+  height: 100%;
+}
+
+nav{
+  margin-left: 380px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 380px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 1px;
+}
+
+.sidenav a {
+  margin-left: 90px;
+  padding: 20px 50px 10px 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: rgb(153, 153, 250);
+}
+
+.main {
+  margin-left: 380px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.anasayfa {
+  margin-left: 380px;
+}
+
+.line {
+  line-height: 3px;
+}
+
+.saturate {
+  filter: saturate(3);
+}
+
+.rounded-corners {
+  border-radius: 30px;
+}
+
+.ortadiv {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ortaimg {
+  /* height: 100px;
+  width: 150px; */
+  /* border: 3px solid black;
+  border-radius: 20px; */
+  display: block;
+  margin: 0 3.5rem 0;
+}
